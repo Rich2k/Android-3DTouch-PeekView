@@ -1,12 +1,18 @@
 package com.klinker.android.peekview;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.MotionEvent;
+import android.view.ViewConfiguration;
+import android.view.ViewGroup;
+
+import com.klinker.android.peekview.util.DensityUtils;
 
 import jp.wasabeef.blurry.Blurry;
 
-public class PeekViewActivity extends Activity {
+public class PeekViewAppCompatActivity extends Activity {
 
     private PeekView peekView;
 

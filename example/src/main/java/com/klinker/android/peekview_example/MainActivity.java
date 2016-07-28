@@ -24,14 +24,14 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.klinker.android.peekview.builder.Peek;
-import com.klinker.android.peekview.PeekViewActivity;
+import com.klinker.android.peekview.PeekViewAppCompatActivity;
 import com.klinker.android.peekview.builder.PeekViewOptions;
 import com.klinker.android.peekview.callback.OnPeek;
 import com.klinker.android.peekview.callback.SimpleOnPeek;
 import com.klinker.android.simple_videoview.SimpleVideoView;
 
 
-public class MainActivity extends PeekViewActivity {
+public class MainActivity extends PeekViewAppCompatActivity {
 
     private static final String TALON_ICON = "https://lh6.ggpht.com/W27xhTGcBY1Bcn1PdlRQeSstMuiBMK3iptcr_DL7b5Hz0sGBezkQIw9pjcLnLEY1cQ=w300-rw";
     private static final String EVOLVE_ICON = "https://lh5.ggpht.com/SH0GFeQzs7w6RZoQ5PIxndvUPvoB1PB8eW_p28oeiRzw8P0MOThX_n_6H0iuJ1LKD9FT=w300-rw";

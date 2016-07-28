@@ -1,12 +1,12 @@
 package com.klinker.android.peekview;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.MotionEvent;
 
 import jp.wasabeef.blurry.Blurry;
 
-public class PeekViewActivity extends Activity {
+public class PeekViewFragmentActivity extends FragmentActivity {
 
     private PeekView peekView;
 
